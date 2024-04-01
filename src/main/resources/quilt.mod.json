@@ -1,25 +1,26 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "${group}",
-		"id": "example_mod",
+		"group": "com.confusingfool.moltenobsidiantools",
+		"id": "moltenobsidiantools",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Molten Obsidian Tools",
+			"description": "Have you ever been tired of crafting new diamond tools when one breaks? Well, now you can give your diamond tools an upgrade with molten obsidian!\\n\\nNow you can blast obsidian in a blast furnace to get Molten Obsidian, use the Molten Obsidian in a Smithing Table with your diamond tool and you get a Molten Obsidian tool!\\n\\nYou can now also reinforce your netherite tools!\\nCheck JEI for recipes.",
 			"contributors": {
-				"Your name here": "Owner"
+				"Eden Urias (ConfusingFool93) (AvacadoWizard120) (ConfusedFool93)": "Dev",
+				"selar_uwu": "Texture Artist"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"homepage": "https://www.youtube.com/@Confusingfool93",
+				"issues": "https://github.com/AvacadoWizard120/molten-obsidian-tools-quilt/issues",
+				"sources": "https://github.com/AvacadoWizard120/molten-obsidian-tools-quilt"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/moltenobsidiantools/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "com.confusingfool.moltenobsidiantools.MoltenObsidianTools"
 		},
 		"depends": [
 			{
@@ -36,5 +37,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "moltenobsidiantools.mixins.json"
 }
